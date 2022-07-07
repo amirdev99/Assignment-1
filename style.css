@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    font-size: 15px;
+}
+
 .top-section {
     background-image: url('images/donation1.jpg');
     background-repeat: no-repeat;
@@ -49,4 +53,53 @@ a {
     display: block;
     margin: 0 auto;
 
+}
+
+section.sec-two {
+    padding: 100px 0;
+}
+
+.donate-today h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.donate-today p {
+    text-align: center;
+    color: black;
+}
+
+.donation-amount,
+.donation-input {
+    margin: auto;
+    width: 50%;
+}
+
+.donation-amount h3 {
+    display: inline-block;
+    padding: 14px 20px;
+    width: 10%;
+    text-align: center;
+    background-color: #FAFAFA;
+    margin-right: 14px;
+}
+
+h3.don-high {
+    background: #FFEEEE;
+    border: 1px solid red;
+}
+
+.donation-input {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+input.don-in {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #dfd4d4;
+    text-align: center;
 }
